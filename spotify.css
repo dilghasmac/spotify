@@ -1,0 +1,533 @@
+*{
+    margin: 0;
+}
+body{
+    background: black;
+}
+a{
+    text-decoration: none;
+    color: #b3b3b3;
+    display: flex;
+    gap: 10px;
+}
+.header{
+    margin: 0;
+    width: 100%;
+    height: 69px;
+    background: black;
+    padding: 0;
+    position:fixed;
+    top: 0;
+  
+}
+.left-header{
+    width: 50%;
+    background: black(255, 0, 0);
+    height: 69px;
+    float: left;
+}
+.logo{
+        height: 32px;
+    width: 33px;
+}
+.logo-div{
+    margin-top: 18px;
+    margin-left: 28px;
+    float: left;
+}
+.round-btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 0;
+    margin-left: 23px;
+    background: #1f1f1f;
+    float: left;
+}
+.search-div{
+    float: left;
+    align-items: center;  
+}
+.home-svg{
+    fill:#b3b3b3 ;
+    width: 28px;
+    height: 28px;
+    ;
+}
+.search-main{
+    height: 51px;
+    margin-top: 9px;
+    margin-left: 84px;
+    border-radius: 25px;
+    background: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 478px;   
+}
+.input{
+    float: left;
+    height: 30px;
+    font-size: 18px;
+    width: 370px;
+    border: 0;
+    background: transparent;
+    color:white;
+    
+}
+.look-up{
+    float: left;
+}
+.round-btn2{
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    border: 0;
+    background: #1f1f1f;
+}
+.vl {
+  border-left: 1px solid #b3b3b3;
+  height: 34px;
+
+}
+.svg2{
+    fill: #b3b3b3;
+    width: 25px;
+}
+.input::placeholder{
+    font-size: 18px;
+}
+.input:focus{
+    outline: none;
+}
+.right-header{
+    width: 50%;
+    background: black;
+    height: 69px;
+    float: left;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 9px;
+}
+.box{
+    height: 69px;
+    width: 50px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.i-logo{
+    height: 15px;
+    width: 15px;
+    fill: #b3b3b3;
+}
+.i-app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #b3b3b3;
+    margin-right: 16px;
+
+}
+.log-btn{
+    width: 113px;
+    height: 52px;
+    border-radius: 999px;
+    border: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight:bold;
+}
+.s-btn{
+    font-weight: bold;
+    font-size: 14px;
+    background: transparent;
+    border: 0;
+    color: #b3b3b3;
+}
+.psd-btn{
+   font-weight: bold;
+    font-size: 16px;
+    background: transparent;
+    border: 0;
+    color: #b3b3b3;
+}
+.psd{
+    margin-right: 1px;
+}
+.main-left{
+    width: 30%;
+    background: #121212;
+    height: 660px;
+    border-radius: 9px;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+
+
+}
+.main-right{
+    width: 70%;
+    background: #121212;
+    background: linear-gradient(0deg, rgba(18, 18, 18, 1) 0%, rgba(18, 18, 18, 1) 51%, rgba(33, 33, 33, 1) 100%);
+    height: 100%;
+    border-radius: 9px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 442px;
+}
+.main{
+    display: flex;
+    gap: 5px;
+    margin-top: 67px;
+     
+    
+}
+.suf{
+    width: 100%;
+    height: 80px;
+    background: #B02897;
+    background: linear-gradient(90deg, rgba(176, 40, 151, 1) 32%, rgba(80, 153, 242, 1) 100%);
+    justify-self: flex-end;
+    position: fixed;
+    bottom: 0;
+}
+.yourlib{
+    display: flex;
+    background: #121212;
+    height: 60px;
+    width: 100%;
+    border-radius: 9px;
+}
+.para1{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    
+    margin-top: 17px;
+    margin-left: 26px;
+
+}
+.svg5{
+    fill: #b3b3b3;
+    width: 18px;
+    height: 18px;
+}
+.round-btn3{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 0;
+    background: #121212;
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin-bottom: 18px;
+    margin-left: 265px;
+}
+.cp{
+    width: 97%;
+    height: 135px;
+    background: #1f1f1f;
+    margin-top: 22px;
+    margin-left: 7px;
+    border-radius: 9px;
+}
+.h3{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+        
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.para4{
+    color: white;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-left: 25px;
+    margin-top: 12px;
+}
+.btn6{
+    font-weight: 700;
+    color: black;
+    border: 0;
+    border-radius: 39px;
+    height: 35px;
+    width: 127px;
+    margin-left: 25px;
+    margin-top: 21px;
+    font-size: -1rem;
+}
+.bp{
+    width: 97%;
+    height: 135px;
+    background: #1f1f1f;
+    margin-top: 22px;
+    margin-left: 7px;
+    border-radius: 9px;
+}
+.p2{
+    margin-left: 14px;
+    margin-top: 44px;
+    font-size: 10px;
+    color: #b3b3b3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pp1{
+    color: #b3b3b3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: flex;
+    margin-left: 14px;
+    margin-top: 115px;
+    font-weight: 100;
+    gap: 20px;
+}
+.pp2{
+    color: #b3b3b3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: flex;
+    margin-left: 14px;
+    margin-top: 20px;
+    font-weight: 100;
+    gap: 20px;
+}
+.svg8{
+    fill: white;
+    background: black;
+    height: 20px;
+}
+.btn8{
+    width: 100px;
+    background: #121212;
+    color: white;
+    border: 1px solid  #b3b3b3   ;
+    transition: none;
+    gap: 10px;
+    border-radius: 99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+    
+}
+.ts-header{
+    display: flex;
+    width: 100%;
+    height: 55px;
+    background: transparent;
+    border-top-left-radius:9px  ;
+    border-top-right-radius: 9px;
+    align-items: center;
+    
+    
+}
+.h1-ts{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 38px;
+    margin-top: 11px;
+    font-size: 25px;
+}
+.sa{
+    margin-left: 680px;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b3b3b3;
+}
+.ts{
+    background:transparent;
+    width: 97%;
+    height: 290px;
+    padding-left: 25px;
+    display: flex;
+    gap: 10px;
+}
+.ts1{
+    width: 180px;
+    height: 268px;
+    background: transparent;
+    border-radius: 9px;
+}
+.pro-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 9px;
+   
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.ts-a-name{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 15px;
+    margin-top: 2px;
+}
+.ts-dis
+{
+    margin-top: 5px;
+    margin-left: 15px;
+    color: #b3b3b3;
+    font-family: SpotifyMixUITitleVariable, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif);;
+    font-size: 15px;
+    font-weight: 10;
+}
+.ps{
+    background: transparent;
+    width: 97%;
+    height: 260px;
+    padding-left: 25px;
+    display: flex;
+    gap: 10px;
+}
+.ps1{
+    width: 180px;
+    height: 250px;
+    background:transparent;
+    border-radius: 9px;
+}
+.ps-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 999px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.spn1{
+    font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif);
+    color: white;
+    margin-left: 25px;
+
+}
+.spn2{
+    font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif);
+    color: white;
+    margin-left: 25px;
+}
+.p32{
+    padding-top: 18px;
+    float: left;
+}
+.suf-btn{
+    width: 140px;
+    height: 52px;
+    border-radius: 999px;
+    border: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight:bold;
+    margin-left: 660px;
+    margin-top: 15px;
+}
+.pa-header{
+    background:transparent;
+    width: 97%;
+    height: 55px;
+    padding-left: 25px;
+    display: flex;
+    gap: 10px;
+}
+.sa2{
+    margin-left: 520px;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b3b3b3;
+}
+.h1-ps{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-top: 11px;
+    font-size: 25px;
+}
+.pa{
+    background: red;
+    width: 97%;
+    /* height: 260px; */ height: 500px;
+    padding-left: 25px;
+    display: flex;
+    gap: 10px;
+}
+.sa3{
+    margin-left: 670px;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b3b3b3;
+}
+.footer-1{
+    background: transparent;
+    width: 100%;
+    height: 210px;
+}
+.hr1{
+    
+    width: 95%;
+    margin: auto;
+    height: 1px;
+    background: #292929;
+    border: 0;
+}
+thead{
+    color: white;
+    font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif);
+    font-size: 16px;
+}
+tbody{
+    font-family: Helvetica Neue, helvetica, arial, Hiragino Sans, Hiragino Kaku Gothic ProN, Meiryo, MS Gothic;
+    color: #b3b3b3;
+}
+.tbl1{
+    margin-top: 45px;
+    margin-left: 35px;
+}
+.itf{
+    height: 35px;
+    width: 141px;
+    background: transparent;
+    display: flex;
+    gap: 18px;
+    margin-left: 770px;
+    margin-top: -148px;
+}
+.btn9{
+    width: 35px;
+    height: 35px;
+    border-radius:99px;
+    border: 0;
+    background: #121212;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+.footer-2{
+    background: transparent;
+    width: 100%;
+    height: 150px;
+
+}
+.p-2{
+    margin-top: 37px;
+    margin-left: 30px;
+    color: #b3b3b3;
+    font-family: SpotifyMixUITitleVariable, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif);;
+    font-size: 15px;
+    font-weight: 10;
+}
+
+
+

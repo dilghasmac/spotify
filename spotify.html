@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="spotify.css" type="text/css">
+</head>
+<body>
+    <div class="container" style="background: black;">
+        <div class="header">
+            <div class="left-header">
+                <div class="logo-div">
+                    <img class="logo" src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_White.png" alt="logo">
+                </div>
+                <div class="search-div">
+                    <button class="round-btn">
+                        <svg class="home-svg"  data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24"><path d="M13.5 1.515a3 3 0 0 0-3 0L3 5.845a2 2 0 0 0-1 1.732V21a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6h4v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V7.577a2 2 0 0 0-1-1.732z"></path></svg>
+                    </button>
+                    <div class="search-main">
+                        <button class="round-btn2">
+                            <svg class="svg2" data-encore-id="icon" role="img" aria-hidden="true"  data-testid="search-icon" viewBox="0 0 24 24" style="--encore-icon-height: var(--encore-graphic-size-decorative-larger-3); --encore-icon-width: var(--encore-graphic-size-decorative-larger-3);"><path d="M10.533 1.27893C5.35215 1.27893 1.12598 5.41887 1.12598 10.5579C1.12598 15.697 5.35215 19.8369 10.533 19.8369C12.767 19.8369 14.8235 19.0671 16.4402 17.7794L20.7929 22.132C21.1834 22.5226 21.8166 22.5226 22.2071 22.132C22.5976 21.7415 22.5976 21.1083 22.2071 20.7178L17.8634 16.3741C19.1616 14.7849 19.94 12.7634 19.94 10.5579C19.94 5.41887 15.7138 1.27893 10.533 1.27893ZM3.12598 10.5579C3.12598 6.55226 6.42768 3.27893 10.533 3.27893C14.6383 3.27893 17.94 6.55226 17.94 10.5579C17.94 14.5636 14.6383 17.8369 10.533 17.8369C6.42768 17.8369 3.12598 14.5636 3.12598 10.5579Z"></path></svg>
+                        </button>
+                        <input class="input" type="text" placeholder="What do you want to play?">
+                        <div class="vl"></div>
+                        <button class="round-btn2">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" class="svg2" viewBox="0 0 24 24"><path d="M4 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v4H4zM1.513 9.37A1 1 0 0 1 2.291 9H21.71a1 1 0 0 1 .978 1.208l-2.17 10.208A2 2 0 0 1 18.562 22H5.438a2 2 0 0 1-1.956-1.584l-2.17-10.208a1 1 0 0 1 .201-.837zM12 17.834c1.933 0 3.5-1.044 3.5-2.333s-1.567-2.333-3.5-2.333S8.5 14.21 8.5 15.5s1.567 2.333 3.5 2.333z"></path></svg>
+                        </button>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="right-header">
+                <div class="psd">
+                <button class="psd-btn">Premium</button>
+                <button class="psd-btn">Support</button>
+
+                <button class="psd-btn">Download</button>
+                </div>
+                <div class="box">
+                    <div class="vl"></div>
+                </div>
+                <div class="i-app">
+                <a href="https://open.spotify.com/download">
+                    <span>
+                        <svg class="i-logo" data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 16 16" style="--encore-icon-height: var(--encore-graphic-size-decorative-smaller); --encore-icon-width: var(--encore-graphic-size-decorative-smaller);"><path d="M4.995 8.745a.75.75 0 0 1 1.06 0L7.25 9.939V4a.75.75 0 0 1 1.5 0v5.94l1.195-1.195a.75.75 0 1 1 1.06 1.06L8 12.811l-.528-.528-.005-.005-2.472-2.473a.75.75 0 0 1 0-1.06"></path><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13"></path></svg>
+                    </span>
+                    <span>Install App</span>
+                </a>
+                </div>
+                <button class="s-btn">Sign up</button>
+                <button class="log-btn">Log in</button>
+
+            </div>
+        </div>
+        <div class="main">
+        <div class="main-left">
+              <div class="yourlib">
+                <p class="para1">Your Library</p>
+                <button class="round-btn3"><svg data-encore-id="icon" role="img" aria-hidden="true" class="svg5" viewBox="0 0 16 16" style="--encore-icon-height: var(--encore-graphic-size-decorative-smaller); --encore-icon-width: var(--encore-graphic-size-decorative-smaller);"><path d="M15.25 8a.75.75 0 0 1-.75.75H8.75v5.75a.75.75 0 0 1-1.5 0V8.75H1.5a.75.75 0 0 1 0-1.5h5.75V1.5a.75.75 0 0 1 1.5 0v5.75h5.75a.75.75 0 0 1 .75.75"></path></svg></button>
+              </div>
+              <div class="cp">
+                <section>
+                    <h1 class="h3">Create your first playlist</h1>
+                    <p class="para4">It's easy,we'll help you</p>
+                </section>
+                <button class="btn6">Create playlist</button>
+              </div>
+               <div class="bp">
+                <section>
+                    <h1 class="h3">Let's find some podcast to follow</h1>
+                    <p class="para4">We'll keep you update on new episodes</p>
+                    <button class="btn6">Browse podcast</button>
+                </section>
+             </div>
+            
+                <div class="pp1">
+                    <h5>Legal</h5><h5>Safety & Privacy Policy</h5><h5>Privacy Policy</h5><h5>Cookies</h5>
+                </div>
+                <div class="pp2">
+                    <h5>About us</h5><h5>Accessibility</h5>
+                </div>
+                <div class="pp2">
+                    <h5>Cookies</h5>
+                </div>
+              <button class="btn8">
+                <svg data-encore-id="icon" role="img" aria-hidden="true" class="svg8" viewBox="0 0 16 16" style="--encore-icon-height: var(--encore-graphic-size-decorative-smaller); --encore-icon-width: var(--encore-graphic-size-decorative-smaller);"><path d="M8.152 16H8a8 8 0 1 1 .152 0m-.41-14.202c-.226.273-.463.713-.677 1.323-.369 1.055-.626 2.496-.687 4.129h3.547c-.06-1.633-.318-3.074-.687-4.129-.213-.61-.45-1.05-.676-1.323-.194-.235-.326-.285-.385-.296h-.044c-.055.007-.19.052-.391.296M4.877 7.25c.062-1.771.34-3.386.773-4.624q.148-.427.329-.806a6.51 6.51 0 0 0-4.436 5.43zm-3.334 1.5a6.51 6.51 0 0 0 4.436 5.43 8 8 0 0 1-.33-.806c-.433-1.238-.71-2.853-.772-4.624zm4.835 0c.061 1.633.318 3.074.687 4.129.214.61.451 1.05.677 1.323.202.244.336.29.391.297l.044-.001c.06-.01.19-.061.385-.296.226-.273.463-.713.676-1.323.37-1.055.626-2.496.687-4.129zm5.048 0c-.061 1.771-.339 3.386-.772 4.624q-.123.353-.268.674a6.5 6.5 0 0 0 4.071-5.298zm3.031-1.5a6.51 6.51 0 0 0-4.071-5.298q.145.322.268.674c.433 1.238.711 2.853.772 4.624z"></path></svg>
+                English
+            </button>
+            
+           </div>
+            <div class="main-right">
+                <div class="ts-header">
+                    <h1 class="h1-ts">Trending songs</h1>
+                    <a href=""><h5 class="sa">Show all</h5></a>
+                </div>
+                <div class="ts">
+                    <div class="ts1">
+                        <img src="	https://i.scdn.co/image/ab67616d00001e023d8df7193d625455be369fc3" alt="" class="pro-pic">
+                        <p class="ts-a-name">FA9LA</p>
+                        <p class="ts-dis">Filiparachii</p>
+                    </div>
+                    <div class="ts1">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02be61ead9c7ff7f908ec463e1" alt="" class="pro-pic">
+                        <p class="ts-a-name">Ishk Jalakar - <br> Karvaan</p>
+                        <p class="ts-dis">Shashwat Sachdev,<br>Shahzad Ali,Subhade..</p>
+                    </div>
+                    <div class="ts1">
+                        <img src="https://i.scdn.co/image/ab67616d00001e028a3d3add335ac6672ce9b471" alt="" class="pro-pic">
+                        <p class="ts-a-name">Tenu Zayda <br>Muhabath</p>
+                        <p class="ts-dis">Vishal-shankher,<br>talwindhar,kumar</p>
+                    </div>
+                    <div class="ts1">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02dccd4f11c8ac8e1f2c8dfc51" alt="" class="pro-pic">
+                        <p class="ts-a-name">Sitaare(from"Ikkis")</p>
+                        <p class="ts-dis">Arijit Singh, WhiteNoise <br>Collctives, Amithabh.. </p>
+                    </div>
+                    <div class="ts1">
+                        <img src="https://i.scdn.co/image/ab67616d00001e022ddf2619ed72a5996f3bbc82" alt="" class="pro-pic">
+                        <p class="ts-a-name">Traas - from <br>"Munjya"</p>
+                        <p class="ts-dis">Sachin-jigar,jasmin <br>Sandlas,Amitabh..</p>
+                    </div>
+                </div>
+                <div class="ts-header">
+                    <h1 class="h1-ts">Popular artists</h1>
+                    <a href=""><h5 class="sa">Show all</h5></a>
+                </div>
+                <div class="ps">
+                    <div class="ps1">
+                        <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="" class="ps-pic">
+                        <p class="ts-a-name">Pritham</p>
+                        <p class="ts-dis">Artist</p>
+                    </div>
+                    <div class="ps1">
+                        <img src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c" alt="" class="ps-pic">
+                        <p class="ts-a-name">A.R. Rahman</p>
+                        <p class="ts-dis">Artist</p>
+                    </div>
+                    <div class="ps1">
+                           <img src="	https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7" alt="" class="ps-pic">
+                        <p class="ts-a-name">Arijit Singh</p>
+                        <p class="ts-dis">Artist</p>
+                    </div>
+                    <div class="ps1">
+                           <img src="https://i.scdn.co/image/ab67616100005174bb4064bef3a825344d5eb79e" alt="" class="ps-pic">
+                        <p class="ts-a-name">Sachin-jigar</p>
+                        <p class="ts-dis">Artist</p>
+                    </div>
+                    <div class="ps1">
+                           <img src="https://i.scdn.co/image/ab6761610000517490b6c3d093f9b02aad628eaf" alt="" class="ps-pic">
+                        <p class="ts-a-name">Vishal-Shekhar</p>
+                        <p class="ts-dis">Artist </p>
+                    </div>
+
+                </div>
+                 <div class="pa-header">
+                    <h1 class="h1-ps">Popular albums and singles</h1>
+                    <a href=""><h5 class="sa2">Show all</h5></a>
+                </div>
+                  <div class="ts">
+                    <div class="ts1">
+                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="" class="pro-pic">
+                        <p class="ts-a-name">Aashiqui 2</p>
+                        <p class="ts-dis">Mithoon,Ankit tiwar,<br>Jeet Gannguli</p>
+                    </div>
+                    <div class="ts1">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02707ea5b8023ac77d31756ed4" alt="" class="pro-pic">
+                        <p class="ts-a-name">Yeh Jawaani Hai <br> Deewani</p>
+                        <p class="ts-dis">Pritam</p>
+                    </div>
+                    <div class="ts1">
+                           <img src="https://i.scdn.co/image/ab67616d00001e02711c1639b4bc0f9978ae77a6" alt="" class="pro-pic">
+                        <p class="ts-a-name">Sanam Teri Kasam <br>Orginal Motion</p>
+                        <p class="ts-dis">Himesh Reshammiya <br> Sameer Anjaan,Subrat..</p>
+                    </div>
+                    <div class="ts1">
+                           <img src="https://i.scdn.co/image/ab67616d00001e0283141000ee8ce3b893a0b425" alt="" class="pro-pic">
+                        <p class="ts-a-name">Finding Her</p>
+                        <p class="ts-dis">Kushagra,Bharath,<br>Saaheal</p>
+                    </div>
+                    <div class="ts1">
+                           <img src="https://i.scdn.co/image/ab67616d00001e02a5183fa4b99bcec1f506418d" alt="" class="pro-pic">
+                        <p class="ts-a-name">Young G.O.A.T</p>
+                        <p class="ts-dis">Cheema Y,Gur Sidhu </p>
+                    </div>
+
+                </div>
+                
+                <div class="ts-header">
+                    <h1 class="h1-ts">Featured Charts</h1>
+                    <a href=""><h5 class="sa3">Show all</h5></a>
+                </div>
+                <div class="ts">
+                    <div class="ts1">
+                        <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg" alt="" class="pro-pic">
+                        <p class="ts-dis">Your weekly update of <br>the most played... </p>
+                    </div>
+                    <div class="ts1">
+                        <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_in_default.jpg" alt="" class="pro-pic">
+                        <p class="ts-dis">Your weekly update of <br>the most played... </p>
+                    </div>
+                    <div class="ts1">
+                        <img src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg" alt="" class="pro-pic">
+                        <p class="ts-dis">Your daily update of <br>the most played... </p>
+                    </div>
+                    <div class="ts1">
+                        <img src="	https://charts-images.scdn.co/assets/locale_en/regional/daily/region_in_default.jpg" alt="" class="pro-pic">
+                        <p class="ts-dis">Your daily update of <br>the most played... </p>
+                    </div>
+                    <div class="ts1">
+                           <img src="	https://charts-images.scdn.co/assets/locale_en/viral/daily/region_global_default.jpg" alt="" class="pro-pic">
+                        <p class="ts-a-name">Vishal-Shekhar</p>
+                        <p class="ts-dis">Your daily update of <br>the most viral tracks..  </p>
+                    </div>
+
+                </div>
+                <hr class="hr1">
+                <div class="footer-1">
+                    <table  class="tbl1" cellpadding="5"cel>
+                        <thead>
+                             <tr>
+                                <td>Company</td>
+                                <td>Communities</td>
+                                <td>Useful Links</td>
+                                <td>Spotify Plans</td>
+                            </tr>
+                        </thead>
+
+                         <tbody>
+   
+                             <tr>
+                                <td>Jobs</td>
+                                <td>Developers</td>
+                                <td>Free Mobile App</td>
+                                <td>Premium Standard</td>
+                             </tr>
+                             <tr>
+                                <td>For the Record</td>
+                                <td>Advertising</td>
+                                <td>Popular by Country</td>
+                                <td>Premium Platinum</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Investors</td>
+                                <td>Import your music</td>
+                                <td>Premium Student</td>
+                             </tr>
+                              <tr>
+                                <td></td>
+                                <td>Vendors</td>
+                                <td></td>
+                                <td>Spotify Free</td>
+                             </tr>
+                        </tbody>
+                    </table>
+                    <div class="itf">
+                        <button class="btn9"> <svg viewBox="0 0 24 24" fill="#949494" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 11C3 7.22876 3 5.34315 4.17157 4.17157C5.34315 3 7.22876 3 11 3H13C16.7712 3 18.6569 3 19.8284 4.17157C21 5.34315 21 7.22876 21 11V13C21 16.7712 21 18.6569 19.8284 19.8284C18.6569 21 16.7712 21 13 21H11C7.22876 21 5.34315 21 4.17157 19.8284C3 18.6569 3 16.7712 3 13V11Z" stroke="#222222"></path> <circle cx="16.5" cy="7.5" r="1.5" fill="#22222"></circle> <circle cx="12" cy="12" r="3.5" stroke="#222222"></circle> </g></svg></button>
+                        <button class="btn9"> <svg viewBox="0 0 24 24" fill="#949494" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M19.7828 3.91825C20.1313 3.83565 20.3743 3.75444 20.5734 3.66915C20.8524 3.54961 21.0837 3.40641 21.4492 3.16524C21.7563 2.96255 22.1499 2.9449 22.4739 3.11928C22.7979 3.29366 23 3.6319 23 3.99986C23 5.08079 22.8653 5.96673 22.5535 6.7464C22.2911 7.40221 21.9225 7.93487 21.4816 8.41968C21.2954 11.7828 20.3219 14.4239 18.8336 16.4248C17.291 18.4987 15.2386 19.8268 13.0751 20.5706C10.9179 21.3121 8.63863 21.4778 6.5967 21.2267C4.56816 20.9773 2.69304 20.3057 1.38605 19.2892C1.02813 19.0108 0.902313 18.5264 1.07951 18.109C1.25671 17.6916 1.69256 17.4457 2.14144 17.5099C3.42741 17.6936 4.6653 17.4012 5.6832 16.9832C5.48282 16.8742 5.29389 16.7562 5.11828 16.6346C4.19075 15.9925 3.4424 15.1208 3.10557 14.4471C2.96618 14.1684 2.96474 13.8405 3.10168 13.5606C3.17232 13.4161 3.27562 13.293 3.40104 13.1991C2.04677 12.0814 1.49999 10.5355 1.49999 9.49986C1.49999 9.19192 1.64187 8.90115 1.88459 8.71165C1.98665 8.63197 2.10175 8.57392 2.22308 8.53896C2.12174 8.24222 2.0431 7.94241 1.98316 7.65216C1.71739 6.3653 1.74098 4.91284 2.02985 3.75733C2.1287 3.36191 2.45764 3.06606 2.86129 3.00952C3.26493 2.95299 3.6625 3.14709 3.86618 3.50014C4.94369 5.36782 6.93116 6.50943 8.78086 7.18568C9.6505 7.50362 10.4559 7.70622 11.0596 7.83078C11.1899 6.61019 11.5307 5.6036 12.0538 4.80411C12.7439 3.74932 13.7064 3.12525 14.74 2.84698C16.5227 2.36708 18.5008 2.91382 19.7828 3.91825ZM10.7484 9.80845C10.0633 9.67087 9.12171 9.43976 8.09412 9.06408C6.7369 8.56789 5.16088 7.79418 3.84072 6.59571C3.86435 6.81625 3.89789 7.03492 3.94183 7.24766C4.16308 8.31899 4.5742 8.91899 4.94721 9.10549C5.40342 9.3336 5.61484 9.8685 5.43787 10.3469C5.19827 10.9946 4.56809 11.0477 3.99551 10.9046C4.45603 11.595 5.28377 12.2834 6.66439 12.5135C7.14057 12.5929 7.49208 13.0011 7.49986 13.4838C7.50765 13.9665 7.16949 14.3858 6.69611 14.4805L5.82565 14.6546C5.95881 14.7703 6.103 14.8838 6.2567 14.9902C6.95362 15.4727 7.65336 15.6808 8.25746 15.5298C8.70991 15.4167 9.18047 15.6313 9.39163 16.0472C9.60278 16.463 9.49846 16.9696 9.14018 17.2681C8.49626 17.8041 7.74425 18.2342 6.99057 18.5911C6.63675 18.7587 6.24134 18.9241 5.8119 19.0697C6.14218 19.1402 6.48586 19.198 6.84078 19.2417C8.61136 19.4594 10.5821 19.3126 12.4249 18.6792C14.2614 18.0479 15.9589 16.9385 17.2289 15.2312C18.497 13.5262 19.382 11.1667 19.5007 7.96291C19.51 7.71067 19.6144 7.47129 19.7929 7.29281C20.2425 6.84316 20.6141 6.32777 20.7969 5.7143C20.477 5.81403 20.1168 5.90035 19.6878 5.98237C19.3623 6.04459 19.0272 5.94156 18.7929 5.70727C18.0284 4.94274 16.5164 4.43998 15.2599 4.77822C14.6686 4.93741 14.1311 5.28203 13.7274 5.89906C13.3153 6.52904 13 7.51045 13 8.9999C13 9.28288 12.8801 9.5526 12.6701 9.74221C12.1721 10.1917 11.334 9.92603 10.7484 9.80845Z" fill="#949494"></path> </g></svg></button>
+                        <button class="btn9"> <svg viewBox="0 0 24 24" fill="#949494" xmlns="http://www.w3.org/2000/svg" stroke="#fcfcfc"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21ZM12 21V13.0001M12 13.0001V10.0001C12 8.02404 13.3537 7.03622 15.5 7.18462M12 13.0001L15 13.0001M12 13.0001H9" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
+                    </div>
+
+                </div>
+                <hr class="hr1">
+                <div class="footer-2">
+                    <p class="p-2">2025 Spotify AB</p>
+                </div>
+
+
+
+                
+                 
+
+            </div>
+        
+          </div>
+          <div class="suf">
+            <p class="p32"><span class="spn1">Preview of Spotify </span> <br><span class="spn2"> Sign up to get unlimited songs nd podcasts with occational ads.No credit card needed </span> </p>
+            <button class="suf-btn">Sign up free</button>
+           </div>
+
+       </div>
+      </body>
+    </html>
